@@ -1,3 +1,27 @@
 .App {
   text-align: center;
 }
+
+.container-mission-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-mission {
+  background-color: orangered;
+  border: 2px groove gray;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.container-planets {
+  display: inline-block;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.planets {
+  width: 150px;
+}

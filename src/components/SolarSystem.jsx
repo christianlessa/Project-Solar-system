@@ -11,7 +11,7 @@ export default class SolarSystem extends Component {
         <Title headline="planetas" />
         {Planets.map((plan) => (
           <PlanetCard
-            key={ PlanetCard.name }
+            key={ plan.name }
             planetName={ plan.name }
             planetImage={ plan.image }
           />

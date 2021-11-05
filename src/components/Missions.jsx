@@ -8,7 +8,7 @@ export default class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <div>
+        <div className="container-mission-card">
           {missions.map((miss) => (
             <MissionCard
               key={ miss.name }
